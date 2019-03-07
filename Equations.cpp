@@ -45,7 +45,7 @@ void QuadraticEquation::solveEquation(){
                 cout << "Your only solution equals: " << solution1 << endl;
             else{
                 solution2 = (-b+sqrt(delta))/(2*a);
-                cout << "Solutions to this equation equal: " << fixed << setprecision(2) << solution1 << " and " << solution2 << endl;
+                cout << "Solutions to this equation equal: " << fixed << setprecision(4) << solution1 << " and " << solution2 << endl;
             }
         }
     }
