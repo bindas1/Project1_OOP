@@ -13,5 +13,5 @@ clean:
 	rm -rf *o proj1
 	
 debug:
-	g++ -g *.cpp -o debug.o
+	g++ -g equations.cpp main.cpp -o debug.o
 
