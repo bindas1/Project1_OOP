@@ -37,6 +37,7 @@ void QuadraticEquation::solveEquation(){
     }
     else{
         delta = b*b-4*a*c;
+        cout << "Delta is equal to: " << delta << endl;
         if(delta < 0)
             cout << "There is no solution in rational numbers to the equation! " << endl;
         else{
